@@ -1,3 +1,13 @@
+Running code in cmd line (when at `/clox` directory):
+```bash
+gcc *.c -o main
+```
+to compile, and
+```bash
+./main
+```
+to run.
+
 Quote for naming conventions:
 
 The most important thing here is consistency. That said, I follow the GTK+ coding convention, which can be summarized as follows:
