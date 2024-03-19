@@ -96,7 +96,7 @@ static void skip_whitespace() {
         advance();
         break;
       case '/':
-        if (peekNext() == '/') {
+        if (peek_next() == '/') {
           // A comment goes until end the end of the line
           while (peek() != '\n' && !is_at_end())
             advance();

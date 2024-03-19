@@ -5,7 +5,7 @@
 #include <stddef.h>
 #include <stdint.h>
 
-// Flag for debugging virtual machine
-#define DEBUG_TRACE_EXECUTION
+#define DEBUG_PRINT_CODE // Flag for printing out the chunk's bytecode
+#define DEBUG_TRACE_EXECUTION // Flag for debugging virtual machine
 
 #endif
